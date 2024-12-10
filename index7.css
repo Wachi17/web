@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b8afa4;
+    color: #333;
+}
+header {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #deb887;
+    padding: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #8b4513;
+}
+.hero {
+    background-image: url('https://example.com/art-and-culture.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000;
+    font-size: 2.5em;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px 0;
+    color: #8b4513;
+}
+.card p {
+    padding: 0 15px 15px;
+    color: #666;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+input, select, button {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #deb887;
+}
+footer {
+    background-color: #8b4513;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2{
+    color: #100c0b;
+    margin-top: 10px;
+}
+p{
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
